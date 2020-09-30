@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friends Blood Bank</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="1.png">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+</head>
+<body class="bg-light" style="background-image: url('con6.jpg');">
+
+    <center>
+    <div class="container"  >
+		<div class="row">
+            <div class="col-md-3"></div>
+			<div class="col-md-6 col-md-offset-6" >
+				<div class="panel panel-default" style="margin-top:90px" >
+					<h4>Login With</h4>
+					<div class="form-group">
+						<input type="varchar" name="" class="form-control" placeholder="enter Username">
+					</div>
+					<div class="form-group">
+						<input type="password" name="" class="form-control" placeholder="enter password" id="myInput"><br>
+						<input id="pass" type="checkbox" onclick="myFunction()"><label for="pass" >Show Password</label>
+					</div>
+					<div class="form-group">
+						<a href="bloodbank.html"><input type="submit" name="" class="btn btn-sucess " value="Login"></a>
+					</div>
+					<a href="index.html"><button style="color: red;background-color: lightcyan" type="button"><b>BACK</b></button></a>
+		</div>
+    </div>
+    </center>
+	<script>
+function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+        x.type = "varchar";
+    } else {
+        x.type = "password";
+    }
+}
+</script>
+
+
+
+
+
+
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+</html>
