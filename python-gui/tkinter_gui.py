@@ -20,9 +20,6 @@ Tops = Frame(root_stong, width = 1600,height =700)
 Tops.pack() 
 f1 = Frame(root_stong, width = 800, height = 700) 
 f1.pack()
-# ============================================== 
-#                  TIME 
-# ==============================================
 
 localtime = time.asctime(time.localtime(time.time()))
                        
